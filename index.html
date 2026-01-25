@@ -1,173 +1,167 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="A synthetic dataset and benchmark for underwater event-based optical flow."/>
-    <meta name="keywords" content="computer vision, event camera, optical flow"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      UEOF: A Benchmark Dataset for Underwater Event-Based Optical Flow
-    </title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="A synthetic dataset and benchmark for underwater event-based optical flow."/>
+  <meta name="keywords" content="computer vision, event camera, optical flow"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    UEOF: A Benchmark Dataset for Underwater Event-Based Optical Flow
+  </title>
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id="
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBM498W8E8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "");
-    </script>
+    gtag("config", "G-VBM498W8E8");
+  </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
-    <link rel="stylesheet" href="./static/css/bulma.min.css" />
-    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
-    <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
-    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-    />
-    <link rel="stylesheet" href="./static/css/index.css" />
-    <link rel="icon" href="./static/images/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
+  <link rel="stylesheet" href="./static/css/bulma.min.css"/>
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css"/>
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css"/>
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="./static/css/index.css"/>
+  <link rel="icon" href="./static/images/favicon.ico"/>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="./static/js/fontawesome.all.min.js"></script>
-    <script src="./static/js/bulma-carousel.min.js"></script>
-    <script src="./static/js/bulma-slider.min.js"></script>
-    <script src="./static/js/index.js"></script>
-  </head>
-  <body>
-    <section class="hero">
-      <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
-              <h1 class="title is-1 publication-title">
-                UEOF: A Benchmark Dataset for </br> Underwater Event-Based Optical Flow
-              </h1>
-              <div class="is-size-5 publication-authors">
-                <span class="author-block">
-                  Nick Truong, Pritam P. Karmokar, and <a href="https://ranger.uta.edu/~wjbeksi">William J. Beksi</a></span>
-              </div>
-              <div class="is-size-5 publication-university">
-                <span class="author-block">The University of Texas at Arlington</span>
-              </div>
-              <div class="is-size-5 publication-lab">
-                <span class="author-block">
-                  <a href="https://rvl.uta.edu">Robotic Vision Laboratory</a></span>
-              </div>
-              <div class="column is-centered">
-                <div class="publication-links">
-                  <!-- Paper link -->
-                  <span class="link-block">
-                    <a href=" " class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Paper</span>
-                    </a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            UEOF: A Benchmark Dataset for </br> Underwater Event-Based Optical Flow
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Nick Truong, Pritam P. Karmokar, and <a href="https://ranger.uta.edu/~wjbeksi">William J. Beksi</a></span>
+            </div>
+          <div class="is-size-5 publication-university">
+            <span class="author-block">The University of Texas at Arlington</span>
+          </div>
+          <div class="is-size-5 publication-lab">
+            <span class="author-block">
+              <a href="https://rvl.uta.edu">Robotic Vision Laboratory</a></span>
+          </div>
+          <div class="column is-centered">
+            <div class="publication-links">
+              <!-- Paper link -->
+              <span class="link-block">
+                <a href=" " class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <!-- Preprint link -->
-                  <span class="link-block">
-                    <a href="https://arxiv.org/pdf/2601.10054" class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="ai ai-arxiv"></i>
-                      </span>
-                      <span>Preprint</span>
-                    </a>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Preprint link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2601.10054" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
                   </span>
-                  <!-- Source code link -->
-                  <span class="link-block">
-                    <a href="https://github.com/robotic-vision-lab/UEOF-A-Benchmark-Dataset-for-Underwater-Event-Based-Optical-Flow" class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Source Code</span>
-                    </a>
+                  <span>Preprint</span>
+                </a>
+              </span>
+              <!-- Source code link -->
+              <span class="link-block">
+                <a href="https://github.com/robotic-vision-lab/UEOF-A-Benchmark-Dataset-for-Underwater-Event-Based-Optical-Flow" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
                   </span>
-                  <!-- Dataset link -->
-                  <span class="link-block">
-                    <a href=" " class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-database"></i>
-                      </span>
-                      <span>Dataset</span>
-                    </a>
+                  <span>Source Code</span>
+                </a>
+              </span>
+              <!-- Dataset link -->
+              <span class="link-block">
+                <a href=" " class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
                   </span>
-                </div>
-              </div>
+                  <span>Dataset</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section class="hero is-light is-small">
-      <div class="hero-body">
-        <div class="container is-max-desktop" id="Demonstration">
-          <div class="item video_1">
-            <video id="raw" autoplay controls muted loop playsinline preload="auto" width="960" height="540">
-              <source src="./static/videos/ueof_teaser_small.mp4" type="video/mp4"/>
-            </video>
-          </div>
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop" id="Demonstration">
+      <div class="item video_1">
+        <video id="raw" autoplay controls muted loop playsinline preload="auto" width="960" height="540">
+          <source src="./static/videos/ueof_teaser_small.mp4" type="video/mp4"/>
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop" id="Abstract">
+    <div class="columns is-centered">
+      <!-- Abstract -->
+      <div class="column is-full-width">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Underwater imaging is fundamentally challenging due to
+            wavelength-dependent light attenuation, strong scattering from
+            suspended particles, turbidity-induced blur, and nonuniform
+            illumination. These effects impair standard cameras and make
+            ground-truth motion nearly impossible to obtain. On the other hand,
+            event cameras offer microsecond resolution and high dynamic range.
+            Nonetheless, progress on investigating event cameras for underwater
+            environments has been limited due to the lack of datasets that pair
+            realistic underwater optics with accurate optical flow. To address
+            this problem, we introduce the first synthetic underwater
+            event-based optical flow (UEOF) dataset derived from
+            physically-based ray-traced RGBD sequences. Using a modern
+            video-to-event pipeline applied to rendered underwater videos, we
+            produce realistic event data streams with dense ground-truth flow,
+            depth, and camera motion.  Moreover, we benchmark state-of-the-art
+            learning-based and model-based optical flow prediction methods to
+            understand how underwater light transport affects event formation
+            and motion estimation accuracy. The UEOF dataset establishes a new
+            baseline for future development and evaluation of underwater
+            event-based perception algorithms. 
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+  <br/>
 
-    <section class="section">
-      <div class="container is-max-desktop" id="Abstract">
-        <div class="columns is-centered">
-          <!-- Abstract -->
-          <div class="column is-full-width">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                Underwater imaging is fundamentally challenging due to
-                wavelength-dependent light attenuation, strong scattering from
-                suspended particles, turbidity-induced blur, and nonuniform
-                illumination. These effects impair standard cameras and make
-                ground-truth motion nearly impossible to obtain. On the other
-                hand, event cameras offer microsecond resolution and high
-                dynamic range. Nonetheless, progress on investigating event
-                cameras for underwater environments has been limited due to the
-                lack of datasets that pair realistic underwater optics with
-                accurate optical flow. To address this problem, we introduce
-                the first synthetic underwater event-based optical flow (UEOF)
-                dataset derived from physically-based ray-traced RGBD
-                sequences. Using a modern video-to-event pipeline applied to
-                rendered underwater videos, we produce realistic event data
-                streams with dense ground-truth flow, depth, and camera motion.
-                Moreover, we benchmark state-of-the-art learning-based and
-                model-based optical flow prediction methods to understand how
-                underwater light transport affects event formation and motion
-                estimation accuracy. The UEOF dataset establishes a new
-                baseline for future development and evaluation of underwater
-                event-based perception algorithms. 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-
-      <div class="container is-max-desktop content" id="Citation">
-        <!-- Citation -->
-        <h2 class="title is-3">Citation</h2>
-        <p>
-        If you find this project useful, then please consider citing both our
-        paper and dataset.
-        </p>
-        <pre><code>@article{truong2026ueof,
-      title={UEOF: A benchmark dataset for underwater event-based optical flow},
-      author={Truong, Nick and Karmokar, Pritam P and Beksi, William J},
-      journal={arXiv preprint arXiv:2601.10054},
-      year={2026}
+  <div class="container is-max-desktop content" id="Citation">
+    <!-- Citation -->
+    <h2 class="title is-3">Citation</h2>
+    <p>
+      If you find this project useful, then please consider citing both our
+      paper and dataset.
+    </p>
+    <pre><code>@article{truong2026ueof,
+  title={UEOF: A benchmark dataset for underwater event-based optical flow},
+  author={Truong, Nick and Karmokar, Pritam P and Beksi, William J},
+  journal={arXiv preprint arXiv:2601.10054},
+  year={2026}
 }</code></pre>
     <pre><code>@data{mavmatrix/dataset.xxx,
   title={{UEOF}},
@@ -181,7 +175,7 @@
   </div>
   <br/>
 
-<div class="container is-max-desktop" id="License">
+  <div class="container is-max-desktop" id="License">
     <div class="columns is-centered">
       <!-- License-->
       <div class="column is-full-width">
