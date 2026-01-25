@@ -2,14 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="A synthetic dataset and benchmark for underwater event-based optical flow."
-    />
-    <meta
-      name="keywords"
-      content="underwater event-based optical flow, dataset"
-    />
+    <meta name="description" content="A synthetic dataset and benchmark for underwater event-based optical flow."/>
+    <meta name="keywords" content="computer vision, event camera, optical flow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
       UEOF: A Benchmark Dataset for Underwater Event-Based Optical Flow
@@ -18,7 +12,7 @@
     <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-Y97SLB8Q67"
+      src="https://www.googletagmanager.com/gtag/js?id="
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -27,13 +21,10 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-Y97SLB8Q67");
+      gtag("config", "");
     </script>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
     <link rel="stylesheet" href="./static/css/bulma.min.css" />
     <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
     <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
@@ -58,65 +49,57 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                UEOF: A Benchmark Dataset<br />
-                for Underwater Event-Based<br />
+                UEOF: A Benchmark Dataset<br/>
+                for Underwater Event-Based<br/>
                 Optical Flow
               </h1>
               <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  Nick Truong*, Pritam P. Karmokar*, and
-                  <a href="https://ranger.uta.edu/~wjbeksi"
-                    >William J. Beksi</a
-                  ></span
-                >
+                  Nick Truong, Pritam P. Karmokar, and <a href="https://ranger.uta.edu/~wjbeksi">William J. Beksi</a></span>
               </div>
               <div class="is-size-5 publication-university">
-                <span class="author-block"
-                  >The University of Texas at Arlington</span
-                >
+                <span class="author-block">The University of Texas at Arlington</span>
               </div>
               <div class="is-size-5 publication-lab">
                 <span class="author-block">
-                  <a href="https://rvl.uta.edu"
-                    >Robotic Vision Laboratory</a
-                  ></span
-                >
+                  <a href="https://rvl.uta.edu">Robotic Vision Laboratory</a></span>
               </div>
               <div class="column is-centered">
                 <div class="publication-links">
-                  <!-- TODO: Paper link -->
+                  <!-- Paper link -->
                   <span class="link-block">
-                    <a
-                      href=""
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
+                    <a href=" " class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Paper</span>
                     </a>
                   </span>
+                  <!-- Preprint link -->
                   <span class="link-block">
-                    <a
-                      href="https://arxiv.org/abs/2601.10054"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
+                    <a href="https://arxiv.org/abs/2601.10054" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
                       </span>
                       <span>Preprint</span>
                     </a>
                   </span>
-                  <!-- TODO: Source code link -->
+                  <!-- Source code link -->
                   <span class="link-block">
-                    <a
-                      href="https://github.com/robotic-vision-lab/UEOF-A-Benchmark-Dataset-for-Underwater-Event-Based-Optical-Flow"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
+                    <a href="https://github.com/robotic-vision-lab/UEOF-A-Benchmark-Dataset-for-Underwater-Event-Based-Optical-Flow" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
                       <span>Source Code</span>
+                    </a>
+                  </span>
+                  <!-- Dataset link -->
+                  <span class="link-block">
+                    <a href=" " class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-database"></i>
+                      </span>
+                      <span>Dataset</span>
                     </a>
                   </span>
                 </div>
@@ -131,21 +114,8 @@
       <div class="hero-body">
         <div class="container is-max-desktop" id="Demonstration">
           <div class="item video_1">
-            <video
-              id="raw"
-              autoplay
-              controls
-              muted
-              loop
-              playsinline
-              preload="auto"
-              width="960"
-              height="540"
-            >
-              <source
-                src="./static/videos/ueof_teaser_small.mp4"
-                type="video/mp4"
-              />
+            <video id="raw" autoplay controls muted loop playsinline preload="auto" width="960" height="540">
+              <source src="./static/videos/ueof_teaser_small.mp4" type="video/mp4"/>
             </video>
           </div>
         </div>
@@ -169,9 +139,9 @@
                 dynamic range. Nonetheless, progress on investigating event
                 cameras for underwater environments has been limited due to the
                 lack of datasets that pair realistic underwater optics with
-                accurate optical flow. To address this problem, we introduce the
-                first synthetic underwater benchmark dataset for event-based
-                optical flow derived from physically-based ray-traced RGBD
+                accurate optical flow. To address this problem, we introduce
+                the first synthetic underwater event-based optical flow (UEOF)
+                dataset derived from physically-based ray-traced RGBD
                 sequences. Using a modern video-to-event pipeline applied to
                 rendered underwater videos, we produce realistic event data
                 streams with dense ground-truth flow, depth, and camera motion.
@@ -180,7 +150,7 @@
                 underwater light transport affects event formation and motion
                 estimation accuracy. Our dataset establishes a new baseline for
                 future development and evaluation of underwater event-based
-                perception algorithms. project are publicly available
+                perception algorithms. 
               </p>
             </div>
           </div>
@@ -226,15 +196,9 @@
             <div class="content">
               <p>
                 This website is licensed under a
-                <a
-                  rel="license"
-                  href="http://creativecommons.org/licenses/by-sa/4.0/"
-                  >Creative Commons Attribution-ShareAlike 4.0 International
-                  License</a
-                >. This means you are free to borrow the
-                <a href="https://github.com/robotic-vision-lab/croptrack"
-                  >source code</a
-                >
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                This means you are free to borrow the
+                <a href="https://github.com/robotic-vision-lab/ueof">source code</a>
                 of this website, we just ask that you link back to this page in
                 the footer. Please remember to remove the analytics code
                 included in the header of this website.
